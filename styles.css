@@ -16,8 +16,8 @@ body {
 }
 
 .sidebar {
-    width: 250px;
-    background-color: #63b2f3;
+    width: 200px;
+    background-color: #90c1e9;
     color: white;
     padding: 20px;
 }
@@ -35,7 +35,7 @@ body {
 
 .sidebar ul li {
     padding: 15px;
-    background-color: #42a7eb;
+    background-color: #a4cbe5;
     margin-bottom: 10px;
     cursor: pointer;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .sidebar ul li:hover {
-    background-color: #1793ec;
+    background-color: #b5d5eb;
 }
 
 .content {
@@ -64,4 +64,5 @@ body {
 }
 .section{
     margin-top: 20px;
+    
 }
