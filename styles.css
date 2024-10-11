@@ -6,7 +6,7 @@
 
 .sidebar {
     width: 200px;
-    background-color: #1d7cca;
+    background-color: #354552;
     color: white;
     padding: 20px;
 }
@@ -18,14 +18,14 @@
 
 .sidebar ul li {
     padding: 15px;
-    background-color: #218fd7;
+    background-color: #4d6474;
     margin-bottom: 10px;
     text-align: center;
     transition: background 0.3s;
 }
 
 .sidebar ul li:hover {
-    background-color: #44a0de;
+    background-color: #617788;
 }
 
 .sidebar ul li a {
