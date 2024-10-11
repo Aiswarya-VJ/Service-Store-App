@@ -43,4 +43,5 @@
 .content {
     flex-grow: 1;
     padding: 20px;
+    background-color: rgb(138, 188, 223);
 }
