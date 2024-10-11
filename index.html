@@ -5,20 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Shop Web App</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
-            <h2>Menu</h2>
+        
             <ul>
-                <li onclick="showSection('dashboard')">HOME</li>
-                <li onclick="showSection('serviceBooking')">SERVICE BOOKING</li>
-                <li onclick="showSection('checkout')">CHECKOUT</li>
-                <li onclick="showSection('createCustomer')">CUSTOMER</li>
-                <li onclick="showSection('createTechnician')">TECHNICIAN</li>
-                <li onclick="showSection('listProducts')">PRODUCTS</li>
-            </ul>
-        </div>
+                <div class="sidebar">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li onclick="showSection('dashboard')">
+                            <i class="fas fa-home"></i> <span class="text">Dashboard</span>
+                        </li>
+                        <li onclick="showSection('serviceBooking')">
+                            <i class="fas fa-concierge-bell"></i> <span class="text">Service Booking</span>
+                        </li>
+                        <li onclick="showSection('checkout')">
+                            <i class="fas fa-shopping-cart"></i> <span class="text">Checkout</span>
+                        </li>
+                        <li onclick="showSection('createCustomer')">
+                            <i class="fas fa-user-plus"></i> <span class="text">Create Customer</span>
+                        </li>
+                        <li onclick="showSection('createTechnician')">
+                            <i class="fas fa-tools"></i> <span class="text">Create Technician</span>
+                        </li>
+                        <li onclick="showSection('listProducts')">
+                            <i class="fas fa-boxes"></i> <span class="text">List of Products</span>
+                        </li>
+                    </ul>
+                </div>
+                
+
+
+               
         <div class="content">
             <div id="dashboard" class="section" align="center">
                 <h1>SERVICE STORE APP</h1>

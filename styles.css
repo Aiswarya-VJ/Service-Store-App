@@ -16,14 +16,16 @@ body {
 }
 .sidebar {
     width: 100px;
-    background-color: #90c1e9;
+    background-color: #1d7cca;
     color: white;
     padding: 20px;
+    overflow: hidden;
+    transition: width 0.3s; /* Smooth transition when expanding */
 }
 
 .sidebar:hover {
     width: 200px;
-    background-color: #90c1e9;
+    background-color: #1d7cca;
     color: white;
     padding: 20px;
 }
@@ -32,6 +34,7 @@ body {
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 30px;
+    display: none; /* Hide the header to focus on icons */
 }
 
 .sidebar ul {
@@ -41,16 +44,31 @@ body {
 
 .sidebar ul li {
     padding: 15px;
-    background-color: #a4cbe5;
+    background-color: #218fd7;
     margin-bottom: 10px;
     cursor: pointer;
     text-align: center;
     transition: background 0.3s;
+    position: relative;
 
 }
 
+
+.sidebar ul li i {
+    font-size: 24px;
+}
+
+.sidebar ul li .text {
+    display: none; /* Hide text initially */
+    margin-left: 10px;
+}
+
 .sidebar ul li:hover {
-    background-color: #b5d5eb;
+    background-color: #44a0de;
+}
+
+.sidebar:hover ul li .text {
+    display: inline; /* Show the text when sidebar is hovered */
 }
 
 .content {
