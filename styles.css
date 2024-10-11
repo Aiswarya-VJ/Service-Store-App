@@ -1,40 +1,14 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
+.container {
     display: flex;
+    flex-direction: row;
     height: 100vh;
 }
 
-.container {
-    display: flex;
-    width: 100%;
-}
 .sidebar {
-    width: 100px;
-    background-color: #1d7cca;
-    color: white;
-    padding: 20px;
-    overflow: hidden;
-    transition: width 0.3s; /* Smooth transition when expanding */
-}
-
-.sidebar:hover {
     width: 200px;
     background-color: #1d7cca;
     color: white;
     padding: 20px;
-}
-
-.sidebar h2 {
-    color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    display: none; /* Hide the header to focus on icons */
 }
 
 .sidebar ul {
@@ -46,48 +20,27 @@ body {
     padding: 15px;
     background-color: #218fd7;
     margin-bottom: 10px;
-    cursor: pointer;
     text-align: center;
     transition: background 0.3s;
-    position: relative;
-
-}
-
-
-.sidebar ul li i {
-    font-size: 24px;
-}
-
-.sidebar ul li .text {
-    display: none; /* Hide text initially */
-    margin-left: 10px;
 }
 
 .sidebar ul li:hover {
     background-color: #44a0de;
 }
 
-.sidebar:hover ul li .text {
-    display: inline; /* Show the text when sidebar is hovered */
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
 }
 
 .content {
-    flex: 1;
+    flex-grow: 1;
     padding: 20px;
-}
-
-/* Hide sections by default */
-.hidden {
-    display: none;
-}
-
-.section {
-    padding: 0;
-    margin: 0;
-    border: none;
-    background-color: transparent;
-}
-.section{
-    margin-top: 20px;
-    
 }
