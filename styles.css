@@ -6,7 +6,7 @@
 
 .sidebar {
     width: 200px;
-    background-color: #586a78;
+    background-color: #487191;
     color: white;
     padding: 20px;
 }
@@ -18,14 +18,14 @@
 
 .sidebar ul li {
     padding: 15px;
-    background-color: #70828f;
+    background-color: #5a89aa;
     margin-bottom: 10px;
     text-align: center;
     transition: background 0.3s;
 }
 
 .sidebar ul li:hover {
-    background-color: #8396a3;
+    background-color: #6897b8;
 }
 
 .sidebar ul li a {
@@ -43,5 +43,5 @@
 .content {
     flex-grow: 1;
     padding: 20px;
-    background-color: rgb(172, 196, 213);
+    background-color: rgb(255, 255, 255);
 }
